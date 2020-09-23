@@ -15,9 +15,9 @@ private String datePublished;
 
 2.	http://localhost:8090/authors
 
-    List<Author> getAuthors();->site avtori na knigite od .ttl bazata
+   List<Author> getAuthors();->site avtori na knigite od .ttl bazata
   
-   # Eden Avtor ima:
+   Eden Avtor ima:
 
 private String Name;
 private List<String> hasCreated;
