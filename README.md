@@ -6,12 +6,19 @@
    Edna kniga ima:
    
 private String Name;
+
 private String Title;
+
 private List<String> creators;
+   
 private List<String> contributors;
+   
 private String isbn;
+
 private String BNB;
+
 private String datePublished;
+
 
 2.	http://localhost:8090/authors
 
