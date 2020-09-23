@@ -3,7 +3,7 @@
 1.	http://localhost:8090/books
    List<Book> getBooks(); -> site knigi od .ttl bazata
   
-   Edna kniga ima:
+   #Edna kniga ima:
    
 private String Name;
 private String Title;
@@ -17,7 +17,7 @@ private String datePublished;
 
     List<Author> getAuthors();->site avtori na knigite od .ttl bazata
   
-    Eden Avtor ima:
+   # Eden Avtor ima:
 
 private String Name;
 private List<String> hasCreated;
@@ -27,7 +27,7 @@ private String type; //organization or person
     
    List<Contributor> getContributors();->site sorabotnici na knigata od .ttl bazata
 
-   Eden sorabotnik ima:
+   #Eden sorabotnik ima:
    
 private String Name;
 private List<String> hasContributed;
